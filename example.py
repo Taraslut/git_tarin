@@ -1,7 +1,10 @@
+# import first
 def hello(name):
     # pass
     return f"hello a"
 
+print("Hello from example")
+print(__name__)
 
 input = [
     'a',
@@ -20,4 +23,5 @@ def test():
 
 
 if __name__ == "__main__":
+    print("In main scope")
     test()

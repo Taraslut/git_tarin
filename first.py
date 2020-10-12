@@ -1,3 +1,5 @@
-name = input("Enter Your name>>")
-print(f"hello {name}")
-print("Good job")
+from example import hello, input, expected
+
+# print(hello("Taras"))
+# print(input)
+# print(expected)
