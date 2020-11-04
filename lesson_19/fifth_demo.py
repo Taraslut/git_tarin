@@ -44,12 +44,14 @@ class Sqaure(Circle):
 
 my = Circle(2)
 
+# Demonstrate class instance usage.
 print(my.square)
 my.radius = 100
 print(my.radius)
 print(my.square)
 print(my.double("Hello"))
 
+# dfgdfgdfgf
 print(Circle.triple("World! "))
 print(my.triple("hi! "))
 
